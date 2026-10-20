@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bytewell": {
+      "command": "/Applications/Bytewell.app/Contents/Helpers/bytewell",
+      "args": ["mcp"]
+    }
+  }
+}

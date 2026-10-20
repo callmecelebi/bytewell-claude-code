@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bytewell",
+  "description": "Bytewell for Claude Code: see what fills your Mac and safely get the space back, from your agent.",
+  "owner": {
+    "name": "Axleno",
+    "email": "ismail@axleno.com"
+  },
+  "plugins": [
+    {
+      "name": "bytewell",
+      "description": "Find developer and AI clutter on your Mac (Xcode, simulators, node_modules, Docker, local AI models, agent worktrees) and move it to the Trash after a preview you approve. Needs the Bytewell app.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Axleno",
+        "url": "https://bytewell.app"
+      },
+      "category": "productivity",
+      "source": "./plugins/bytewell",
+      "homepage": "https://bytewell.app"
+    }
+  ]
+}

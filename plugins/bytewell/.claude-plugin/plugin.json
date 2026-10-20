@@ -1,0 +1,11 @@
+{
+  "name": "bytewell",
+  "description": "See what fills your Mac and safely get the space back: Bytewell's MCP server plus a skill for careful disk cleanup. Nothing is deleted permanently.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Axleno",
+    "url": "https://bytewell.app"
+  },
+  "homepage": "https://bytewell.app",
+  "keywords": ["macos", "disk-space", "cleanup", "xcode", "docker", "ollama", "node_modules", "mcp"]
+}
