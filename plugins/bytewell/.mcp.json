@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "bytewell": {
-      "command": "/Applications/Bytewell.app/Contents/Helpers/bytewell",
-      "args": ["mcp"]
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/bytewell-mcp",
+      "args": []
     }
   }
 }
