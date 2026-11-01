@@ -22,8 +22,7 @@ The first tool result from a new worker includes its current developer guide, an
 tool retrieves that same guide on demand. A new scan is still needed when current disk findings are requested.
 
 This skill is a small loader for the guide shipped in the installed app, so future tool/safety updates need no
-repeated skill edits. Plugin metadata and connection changes remain separate releases through the public plugin
-repository. Changes in this working copy are unpublished.
+repeated skill edits.
 
 Connections already running 1.2.1 or earlier remain intact; the client's next normal MCP connection starts the
 installed supervisor automatically. No separate manual reconnect or configuration task is required to keep using
@@ -34,28 +33,7 @@ with `/Applications/Bytewell.app/Contents/Helpers/bytewell agent-guide --bootstr
 instructions button); that stable loader reads the current guide on future tasks. Keep the app at its configured
 path. No assistant process or project instructions are changed automatically.
 
-## This folder
+## License
 
-Published as the public marketplace repository github.com/callmecelebi/bytewell-claude-code (this repo is private); copy changes there:
-
-| Path | What it is |
-|---|---|
-| `.claude-plugin/marketplace.json` | The marketplace (one plugin) |
-| `plugins/bytewell/.claude-plugin/plugin.json` | Plugin metadata |
-| `plugins/bytewell/.mcp.json` | Starts `bin/bytewell-mcp`, which runs `Bytewell.app/Contents/Helpers/bytewell mcp` from `/Applications` or `~/Applications` |
-| `plugins/bytewell/bin/bytewell-mcp` | Finds the installed app (keep it executable when copying) |
-| `plugins/bytewell/skills/free-up-disk-space/SKILL.md` | How the agent should use the tools |
-
-Test locally before publishing: `claude --plugin-dir integrations/claude-code/plugins/bytewell`.
-
-## Where else to list it
-
-| Directory | How |
-|---|---|
-| Claude Code plugin directory (Anthropic) | Submission form: https://clau.de/plugin-directory-submission (needs the public repo) |
-| mcp.so | "Submit" on the site, with the public repo URL |
-| Glama MCP directory | "Add server" with the public repo URL |
-| awesome-mcp-servers lists | Pull request adding one line under *File systems* or *Developer tools* |
-
-The official MCP Registry and Smithery list servers installable from a package (npm, PyPI, Docker) or hosted over
-HTTP. Bytewell's server ships inside a signed Mac app, so it doesn't fit them as is.
+The files in this repository are MIT licensed (`LICENSE`). The Bytewell app they start is not: it is
+proprietary and distributed separately from [bytewell.app](https://bytewell.app).
