@@ -7,6 +7,11 @@
     "url": "https://bytewell.app"
   },
   "homepage": "https://bytewell.app",
+  "repository": "https://github.com/callmecelebi/bytewell-claude-code",
+  "documentationUrl": "https://github.com/callmecelebi/bytewell-claude-code/tree/main/plugins/bytewell#readme",
+  "supportUrl": "https://github.com/callmecelebi/bytewell-claude-code/issues",
+  "privacyPolicyUrl": "https://axleno.com/privacy",
+  "termsOfServiceUrl": "https://axleno.com/terms",
   "license": "MIT",
   "keywords": ["macos", "disk-space", "cleanup", "xcode", "docker", "ollama", "node_modules", "mcp"]
 }
