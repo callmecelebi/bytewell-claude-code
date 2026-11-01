@@ -29,3 +29,8 @@ with what it needs and which tools still work.
 
 The plugin itself downloads nothing, installs nothing and sends nothing over the network. Scans and cleanups run
 locally in the Bytewell app.
+
+## License
+
+The plugin's files are MIT licensed (`LICENSE`); the Bytewell app is proprietary. The Bytewell name and icon
+(`.claude-plugin/icon.png`) belong to Axleno LLC and aren't covered by the MIT license.
