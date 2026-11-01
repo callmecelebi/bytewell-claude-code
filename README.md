@@ -37,4 +37,4 @@ path. No assistant process or project instructions are changed automatically.
 
 The files in this repository are MIT licensed (`LICENSE`). The Bytewell app they start is not: it is
 proprietary and distributed separately from [bytewell.app](https://bytewell.app). The Bytewell name and icon
-(`plugins/bytewell/.claude-plugin/icon.png`) belong to Axleno LLC and aren't covered by the MIT license.
+belong to Axleno LLC and aren't covered by the MIT license.
