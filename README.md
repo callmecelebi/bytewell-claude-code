@@ -1,5 +1,7 @@
 # Bytewell for Claude Code
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/callmecelebi-bytewell-claude-code-1rxff6?v=d61f6a6f1bc64f37f11843c071933b0c)](https://m8ven.ai/mcp/callmecelebi-bytewell-claude-code-1rxff6?s=readme)
+
 A Claude Code plugin: Bytewell's MCP server plus a skill that tells the agent how to clean a Mac carefully (preview
 first, Trash only, undo). It needs the Bytewell app in `/Applications` or `~/Applications` ([bytewell.app](https://bytewell.app), free).
 
