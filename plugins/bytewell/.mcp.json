@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "bytewell": {
-      "command": "${CLAUDE_PLUGIN_ROOT}/bin/bytewell-mcp",
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/start-mcp.sh",
       "args": []
     }
   }
